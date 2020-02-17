@@ -10,26 +10,14 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
-Mathematik-Plugin für Jarvis auf Deutsch.
-
-## Languages
-
-* Deutsch
+Datum und Zeit Plugin auf Deutsch übersetzt
 
 ## Usage
 ```
-Ich: Berechne 2 mal 4
-Jarvis: 2 * 4 ist 8
-
-Ich: Berechne 12 mal 2
-Jarvis: 12 * 2 ist 24
-
-Ich: Berechne 5 durch 2
-Jarvis: 5 durch 2 ist 2.5
-
-Ich: Berechne 2 punkt 51 plus 3 punkt 9
-jarvis: 2,51 plus 3,9 ist 6,41
-
+Ich: Wie spät ist es?
+Jarvis: Es ist 13 Uhr 15
+Ich: Welcher Tag ist heute?
+Jarvis: Heute ist der 15 Mai 2018
 ```
 
 ## Author
