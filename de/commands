@@ -1,2 +1,2 @@
-*WIEVIEL*UHR*IST*ES*==say "Es ist $( [ $pg_time_format -eq 12 ] && date +"%l" || date +"%k") $([ $(date +"%-M") -eq 0 ] && echo "o'clock" || date +"%M")"
-*WELCHER|WELCHES*TAG|DATUM*==say "Heute ist der $(LC_TIME="$language.UTF-8" date +"%A %d %B %Y")"
+*WIEVIEL*UHR*IST*ES*==say "Es ist $( [ $pg_time_format -eq 12 ] && date +"%l" || date +"%k") Uhr $([ $(date +"%-M") -eq 0 ] && echo "o'clock" || date +"%M")"
+*WELCHES*DATUM*IST*HEUTE*==say "Heute ist der $(LC_TIME="$language.UTF-8" date +"%A %d %B %Y")"
